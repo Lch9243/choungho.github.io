@@ -10,29 +10,29 @@ export const siteConfig = {
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hi Im Leechoungho",
+  skills: ["Javascript", "React", "Node.js", "Python"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Air Pollution Inquiry Mashup",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "공공 데이터의 대기오염 API를 이용해서 선택한 지역의 실시간 미세먼지·오존 농도를 지도와 함께 조회할 수 있는 Mashup 서비스입니다.",
+      link: "https://2022810059ch23.netlify.app/",
+      skills: ["HTML", "CSS", "JavaScript", "OpenAPI"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "서울시 문화행사 알리미 PWA",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "서울시 문화행사 OpenAPI를 활용하여 기간·지역별 문화행사를 검색하고, 홈 화면 추가가 가능한 PWA 형태로 제공하는 웹 애플리케이션입니다.",
+      link: "https://202281005924-2.netlify.app/",
+      skills: ["HTML", "CSS", "JavaScript", "PWA", "OpenAPI"],
     },
     {
-      name: "ExtensionKit",
+      name: "서울시 공공도서관 검색 Mashup",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "서울시 공공도서관 OpenAPI와 지도 서비스를 연동하여 구·키워드별 도서관 위치와 상세 정보를 지도 위에서 한눈에 확인할 수 있는 Mashup 서비스입니다.",
+      link: "https://2022810059ch22.netlify.app/",
+      skills: ["HTML", "CSS", "JavaScript", "Kakao Map", "OpenAPI"],
     },
   ],
   experience: [
