@@ -7,4 +7,9 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+    // GitHub 유저 페이지 도메인
+  site: "https://lch9243.github.io",
+
+  // 이 레포 이름 (앞에 / 붙이기!)
+  base: "/choungho.github.io",
 });
